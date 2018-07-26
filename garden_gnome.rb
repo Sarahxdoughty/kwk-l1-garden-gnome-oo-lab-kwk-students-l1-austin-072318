@@ -8,4 +8,8 @@ class GardenGnome
   def gnaw
     return "Gnawing on a tree!!!"
   end
+  
+  def shout
+    return "GNARLY!!!"
+  end 
 end 
