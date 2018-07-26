@@ -3,6 +3,7 @@ class GardenGnome
   def initialize(hat_color = "red")
     @personality = "evil"
     @hat_color = hat_color
+    @gnaw = "Gnawing on a tree!!!"
   end
   
   def gnaw
