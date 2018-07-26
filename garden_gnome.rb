@@ -1,4 +1,6 @@
 class GardenGnome
   attr_accessor :name 
-  initializes 
+  def initialize(name)
+    @name = name
+  end
 end 
