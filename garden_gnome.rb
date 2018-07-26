@@ -1,3 +1,6 @@
 class GardenGnome
-  attr_accessor :name, :age, :gluten_allergy
+  attr_accessor :name, :age, :gluten_allergy, :personality
+  def initialize(personality)
+    @personality = "evil"
+  end
 end 
